@@ -1,0 +1,205 @@
+/* Улучшенное отображение ASCII-схем */
+
+/* Все code blocks с моноширинным шрифтом */
+pre, code {
+  font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Code', 'Fira Mono',
+               'Roboto Mono', 'Source Code Pro', 'Courier New', monospace !important;
+  font-size: 0.9em;
+  line-height: 1.4;
+}
+
+/* Блоки кода (ASCII-схемы) */
+pre {
+  background: var(--gray-100);
+  padding: 1rem;
+  border-radius: 4px;
+  overflow-x: auto;
+  white-space: pre;
+
+  /* Улучшенная читаемость */
+  letter-spacing: 0;
+  word-spacing: 0;
+  tab-size: 4;
+  -moz-tab-size: 4;
+}
+
+/* Тёмная тема */
+.dark pre {
+  background: var(--gray-900);
+}
+
+/* Inline code */
+code {
+  background: var(--gray-200);
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+.dark code {
+  background: var(--gray-800);
+}
+
+/* Специально для ASCII-схем - убираем любое сжатие */
+pre code {
+  background: none;
+  padding: 0;
+  font-size: inherit;
+  white-space: pre;
+  display: block;
+  overflow-x: auto;
+}
+
+/* Заголовки с эмодзи */
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.4;
+}
+
+/* Улучшенные таблицы */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+  font-size: 0.95em;
+}
+
+table th {
+  background: var(--gray-100);
+  font-weight: 600;
+  text-align: left;
+  padding: 0.75em;
+}
+
+.dark table th {
+  background: var(--gray-800);
+}
+
+table td {
+  padding: 0.75em;
+  border-bottom: 1px solid var(--gray-200);
+}
+
+.dark table td {
+  border-bottom: 1px solid var(--gray-700);
+}
+
+/* Улучшенные списки */
+ul, ol {
+  padding-left: 1.5em;
+  line-height: 1.8;
+}
+
+li {
+  margin: 0.3em 0;
+}
+
+/* Чек-листы */
+li input[type="checkbox"] {
+  margin-right: 0.5em;
+}
+
+/* Выделение важных блоков */
+blockquote {
+  border-left: 4px solid var(--color-link);
+  padding-left: 1em;
+  margin: 1em 0;
+  font-style: italic;
+  color: var(--gray-600);
+}
+
+.dark blockquote {
+  color: var(--gray-400);
+}
+
+/* Улучшенная читаемость контента */
+.markdown {
+  font-size: 16px;
+  line-height: 1.7;
+  max-width: 100%;
+}
+
+/* Медиа запросы для мобильных */
+@media (max-width: 768px) {
+  pre {
+    font-size: 0.8em;
+    padding: 0.75rem;
+  }
+
+  .markdown {
+    font-size: 15px;
+  }
+}
+
+/* Печать */
+@media print {
+  pre, code {
+    font-family: 'Courier New', monospace;
+    font-size: 10pt;
+  }
+
+  pre {
+    page-break-inside: avoid;
+    border: 1px solid #ddd;
+    padding: 0.5cm;
+  }
+}
+
+/* Подсветка синтаксиса для схем (опционально) */
+.language-circuit,
+.language-схема {
+  color: var(--body-font-color);
+}
+
+/* Кастомные цвета для темы */
+:root {
+  --color-link: #3b82f6;
+  --color-visited-link: #6366f1;
+}
+
+/* Улучшение для очень длинных ASCII-схем */
+pre.large-ascii {
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+/* Стиль для вкладок формул */
+.formula {
+  background: var(--gray-50);
+  border-left: 3px solid var(--color-link);
+  padding: 1em;
+  margin: 1em 0;
+  font-family: 'SF Mono', monospace;
+}
+
+.dark .formula {
+  background: var(--gray-850);
+}
+
+/* Эмодзи не должны ломать выравнивание */
+img.emoji {
+  display: inline;
+  height: 1.2em;
+  width: 1.2em;
+  margin: 0 0.05em 0 0.1em;
+  vertical-align: -0.1em;
+}
+
+/* Золотые звёздочки для оценки сложности */
+.difficulty-stars {
+  letter-spacing: 0.1em;
+  font-size: 1.1em;
+
+  .filled {
+    color: gold;
+  }
+
+  .empty {
+    color: rgba(255, 215, 0, 0.3); // Полупрозрачное золото
+  }
+}
+
+.dark .difficulty-stars {
+  .empty {
+    color: rgba(255, 215, 0, 0.25);
+  }
+}

@@ -1,0 +1,40 @@
+baseURL = 'https://sciart.lol/poehali-2025/circuits-metodichka/'
+languageCode = 'ru-RU'
+title = 'Схемотехника для художников'
+theme = 'book'
+
+# Включаем emoji
+enableEmoji = true
+
+# Book Theme Settings
+[params]
+  BookLogo = 'logo.png'
+  BookToC = true
+  BookSection = 'docs'
+  BookRepo = 'https://github.com/shrimpsizemoose/poehali-circuits-metodichka'
+  BookEditPath = 'edit/main'
+  BookDateFormat = '2 January 2006'
+  BookSearch = true
+  BookComments = false
+  BookTheme = 'auto'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    codeFences = true
+    lineNos = false
+    lineNumbersInTable = false
+    noClasses = false
+    style = "monokai"
+    tabWidth = 4
+
+[menu]
+  [[menu.after]]
+    name = "исходники методички"
+    url = "https://github.com/shrimpsizemoose/poehali-circuits-metodichka"
+    weight = 10
+
+[outputs]
+  home = ['HTML', 'RSS']
