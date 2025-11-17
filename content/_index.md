@@ -5,8 +5,8 @@ title: "Схемотехника для художников"
 # Методичка: Схемотехника для художников
 ## Подготовительная программа перед работой с ATtiny85
 
-**Для кого:** Художники и творческие люди без технического бэкграунда
-**Время:** 2-3 вечера (базовая программа) + бонусные упражнения
+**Для кого:** Художники и творческие люди без технического бэкграунда<br>
+**Время:** 2-3 вечера (базовая программа) + бонусные упражнения<br>
 **Цель:** Подготовиться к созданию интерактивных арт-объектов на выездной экспедиции
 
 ---
@@ -14,21 +14,21 @@ title: "Схемотехника для художников"
 ## 📚 Структура программы
 
 ### 🔰 Введение
-**[intro.md](intro.md)** — Основы работы с макетной платой, базовые компоненты, техника безопасности
+**[intro.md](docs/intro)** — Основы работы с макетной платой, базовые компоненты, техника безопасности
 
 ---
 
-## 🎯 БАЗОВАЯ ПРОГРАММА (обязательно!)
+## 🎯 БАЗОВАЯ ПРОГРАММА
 
 ### 🌟 Вечер 1: Основы (90 минут)
 
 | # | Название | Время | Сложность | Файл |
 |---|----------|-------|-----------|------|
-| 01 | Первая цепь — светодиод горит | 15-20 мин | ★☆☆☆☆ | [exercise_01_first_led.md](exercise_01_first_led.md) |
-| 02 | Кнопка включает свет | 10-15 мин | ★☆☆☆☆ | [exercise_02_button_led.md](exercise_02_button_led.md) |
-| 03 | Два светодиода параллельно | 15 мин | ★☆☆☆☆ | [exercise_03_parallel_leds.md](exercise_03_parallel_leds.md) |
-| 04 | Два светодиода последовательно | 15 мин | ★★☆☆☆ | [exercise_04_series_leds.md](exercise_04_series_leds.md) |
-| 05 | RC-цепь — светодиод медленно гаснет | 20-25 мин | ★★☆☆☆ | [exercise_05_rc_circuit.md](exercise_05_rc_circuit.md) |
+| 01 | Первая цепь — светодиод горит | 15-20 мин | ★☆☆☆☆ | [exercise_01_first_led](docs/exercises/exercise_01_first_led/) |
+| 02 | Кнопка включает свет | 10-15 мин | ★☆☆☆☆ | [exercise_02_button_led](docs/exercises/exercise_02_button_led/) |
+| 03 | Два светодиода параллельно | 15 мин | ★☆☆☆☆ | [exercise_03_parallel_leds](docs/exercises/exercise_03_parallel_leds/) |
+| 04 | Два светодиода последовательно | 15 мин | ★★☆☆☆ | [exercise_04_series_leds](docs/exercises/exercise_04_series_leds/) |
+| 05 | RC-цепь — светодиод медленно гаснет | 20-25 мин | ★★☆☆☆ | [exercise_05_rc_circuit](docs/exercises/exercise_05_rc_circuit/) |
 
 **Чему научитесь:**
 - Работа с макетной платой
@@ -42,9 +42,9 @@ title: "Схемотехника для художников"
 
 | # | Название | Время | Сложность | Файл |
 |---|----------|-------|-----------|------|
-| 06 | Транзистор как ключ | 30-40 мин | ★★★☆☆ | [exercise_06_transistor_switch.md](exercise_06_transistor_switch.md) |
-| 07 | Сенсорная кнопка | 15-20 мин | ★★☆☆☆ | [exercise_07_touch_sensor.md](exercise_07_touch_sensor.md) |
-| 08 | Делитель напряжения и темновой выключатель | 30-40 мин | ★★★☆☆ | [exercise_08_voltage_divider.md](exercise_08_voltage_divider.md) |
+| 06 | Транзистор как ключ | 30-40 мин | ★★★☆☆ | [exercise_06_transistor_switch](docs/exercises/exercise_06_transistor_switch/) |
+| 07 | Сенсорная кнопка | 15-20 мин | ★★☆☆☆ | [exercise_07_touch_sensor](docs/exercises/exercise_07_touch_sensor/) |
+| 08 | Делитель напряжения и темновой выключатель | 30-40 мин | ★★★☆☆ | [exercise_08_voltage_divider](docs/exercises/exercise_08_voltage_divider/) |
 
 **Чему научитесь:**
 - Принцип работы транзистора
@@ -58,8 +58,8 @@ title: "Схемотехника для художников"
 
 | # | Название | Время | Сложность | Файл |
 |---|----------|-------|-----------|------|
-| 09 | Мигающий светодиод (однотранзисторный) | 40-50 мин | ★★★★☆ | [exercise_09_single_transistor_blinker.md](exercise_09_single_transistor_blinker.md) |
-| 10 | 🏆 КЛАССИЧЕСКИЙ МУЛЬТИВИБРАТОР 🏆 | 60-90 мин | ★★★★★ | [exercise_10_astable_multivibrator.md](exercise_10_astable_multivibrator.md) |
+| 09 | Мигающий светодиод (однотранзисторный) | 40-50 мин | ★★★★☆ | [exercise_09_single_transistor_blinker](docs/exercises/exercise_09_single_transistor_blinker/) |
+| 10 | 🏆 КЛАССИЧЕСКИЙ МУЛЬТИВИБРАТОР 🏆 | 60-90 мин | ★★★★★ | [exercise_10_astable_multivibrator](docs/exercises/exercise_10_astable_multivibrator/) |
 
 **Чему научитесь:**
 - Положительная обратная связь
@@ -71,15 +71,17 @@ title: "Схемотехника для художников"
 
 ---
 
-## 🎨 БОНУСНЫЕ УПРАЖНЕНИЯ (не так просто получить их ещё муахаха)
+## 🎨 БОНУСНЫЕ УПРАЖНЕНИЯ
+
+Эти модули скорее всего можно делать в любом порядке, но чтобы всё получилось лучше сделать сначала базовые упражнения. Ещё мы советуем относиться к ним как к идеям а не финальным проектам, так будет веселее и полезнее!
 
 ### 🔊 Звуковые эксперименты
 
 | # | Название | Время | Сложность | Файл |
 |---|----------|-------|-----------|------|
-| 11 | Пищалка (генератор звука) | 30 мин | ★★★☆☆ | [exercise_11_sound_generator.md](exercise_11_sound_generator.md) |
-| 12 | Терменвокс на транзисторе | 40-60 мин | ★★★★☆ | [exercise_12_theremin.md](exercise_12_theremin.md) |
-| 13 | "Орган" на кнопках | 60 мин | ★★★★☆ | [exercise_13_button_organ.md](exercise_13_button_organ.md) |
+| 11 | Пищалка (генератор звука) | 30 мин | ★★★☆☆ | [exercise_11_sound_generator](docs/bonus/exercise_11_sound_generator/) |
+| 12 | Терменвокс на транзисторе | 40-60 мин | ★★★★☆ | [exercise_12_theremin](docs/bonus/exercise_12_theremin/) |
+| 13 | "Орган" на кнопках | 60 мин | ★★★★☆ | [exercise_13_button_organ](docs/bonus/exercise_13_button_organ/) |
 
 ---
 
@@ -87,10 +89,10 @@ title: "Схемотехника для художников"
 
 | # | Название | Время | Сложность | Файл |
 |---|----------|-------|-----------|------|
-| 14 | Детектор темноты | 45 мин | ★★★☆☆ | [exercise_14_darkness_detector.md](exercise_14_darkness_detector.md) |
-| 15 | Сенсорная панель | 40 мин | ★★★☆☆ | [exercise_15_touch_panel.md](exercise_15_touch_panel.md) |
-| 16 | Детектор воды | 30 мин | ★★☆☆☆ | [exercise_16_water_detector.md](exercise_16_water_detector.md) |
-| 17 | Датчик приближения (ёмкостный) | 60-90 мин | ★★★★★ | [exercise_17_proximity_sensor.md](exercise_17_proximity_sensor.md) |
+| 14 | Детектор темноты | 45 мин | ★★★☆☆ | [exercise_14_darkness_detector](docs/bonus/exercise_14_darkness_detector/) |
+| 15 | Сенсорная панель | 40 мин | ★★★☆☆ | [exercise_15_touch_panel](docs/bonus/exercise_15_touch_panel/) |
+| 16 | Детектор воды | 30 мин | ★★☆☆☆ | [exercise_16_water_detector](docs/bonus/exercise_16_water_detector/) |
+| 17 | Датчик приближения (ёмкостный) | 60-90 мин | ★★★★★ | [exercise_17_proximity_sensor](docs/bonus/exercise_17_proximity_sensor/) |
 
 ---
 
@@ -98,9 +100,9 @@ title: "Схемотехника для художников"
 
 | # | Название | Время | Сложность | Файл |
 |---|----------|-------|-----------|------|
-| 18 | "Живой объект" (свет + звук + сенсор) | 90 мин | ★★★★☆ | [exercise_18_interactive_object.md](exercise_18_interactive_object.md) |
-| 19 | Хаотический генератор | 60 мин | ★★★★☆ | [exercise_19_chaos_generator.md](exercise_19_chaos_generator.md) |
-| 20 | Электронная свеча | 60 мин | ★★★★☆ | [exercise_20_electronic_candle.md](exercise_20_electronic_candle.md) |
+| 18 | "Живой объект" (свет + звук + сенсор) | 90 мин | ★★★★☆ | [exercise_18_interactive_object](docs/bonus/exercise_18_interactive_object/) |
+| 19 | Хаотический генератор | 60 мин | ★★★★☆ | [exercise_19_chaos_generator](docs/bonus/exercise_19_chaos_generator/) |
+| 20 | Электронная свеча | 60 мин | ★★★★☆ | [exercise_20_electronic_candle](docs/bonus/exercise_20_electronic_candle/) |
 
 ---
 

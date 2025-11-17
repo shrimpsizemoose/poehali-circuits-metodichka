@@ -15,7 +15,7 @@ weight: 1
 ## 📚 Структура программы
 
 ### 🔰 Введение
-**[intro.md](intro.md)** — Основы работы с макетной платой, базовые компоненты, техника безопасности
+**[intro.md](intro)** — Основы работы с макетной платой, базовые компоненты, техника безопасности
 
 ---
 
@@ -25,11 +25,11 @@ weight: 1
 
 | # | Название | Время | Сложность | Файл |
 |---|----------|-------|-----------|------|
-| 01 | Первая цепь — светодиод горит | 15-20 мин | ★☆☆☆☆ | [exercise_01_first_led.md](exercise_01_first_led.md) |
-| 02 | Кнопка включает свет | 10-15 мин | ★☆☆☆☆ | [exercise_02_button_led.md](exercise_02_button_led.md) |
-| 03 | Два светодиода параллельно | 15 мин | ★☆☆☆☆ | [exercise_03_parallel_leds.md](exercise_03_parallel_leds.md) |
-| 04 | Два светодиода последовательно | 15 мин | ★★☆☆☆ | [exercise_04_series_leds.md](exercise_04_series_leds.md) |
-| 05 | RC-цепь — светодиод медленно гаснет | 20-25 мин | ★★☆☆☆ | [exercise_05_rc_circuit.md](exercise_05_rc_circuit.md) |
+| 01 | Первая цепь — светодиод горит | 15-20 мин | ★☆☆☆☆ | [exercise_01_first_led.md](exercise_01_first_led) |
+| 02 | Кнопка включает свет | 10-15 мин | ★☆☆☆☆ | [exercise_02_button_led.md](exercise_02_button_led) |
+| 03 | Два светодиода параллельно | 15 мин | ★☆☆☆☆ | [exercise_03_parallel_leds.md](exercise_03_parallel_leds) |
+| 04 | Два светодиода последовательно | 15 мин | ★★☆☆☆ | [exercise_04_series_leds.md](exercise_04_series_leds) |
+| 05 | RC-цепь — светодиод медленно гаснет | 20-25 мин | ★★☆☆☆ | [exercise_05_rc_circuit.md](exercise_05_rc_circuit) |
 
 **Чему научитесь:**
 - Работа с макетной платой
@@ -43,9 +43,9 @@ weight: 1
 
 | # | Название | Время | Сложность | Файл |
 |---|----------|-------|-----------|------|
-| 06 | Транзистор как ключ | 30-40 мин | ★★★☆☆ | [exercise_06_transistor_switch.md](exercise_06_transistor_switch.md) |
-| 07 | Сенсорная кнопка | 15-20 мин | ★★☆☆☆ | [exercise_07_touch_sensor.md](exercise_07_touch_sensor.md) |
-| 08 | Делитель напряжения и темновой выключатель | 30-40 мин | ★★★☆☆ | [exercise_08_voltage_divider.md](exercise_08_voltage_divider.md) |
+| 06 | Транзистор как ключ | 30-40 мин | ★★★☆☆ | [exercise_06_transistor_switch.md](exercise_06_transistor_switch) |
+| 07 | Сенсорная кнопка | 15-20 мин | ★★☆☆☆ | [exercise_07_touch_sensor.md](exercise_07_touch_sensor) |
+| 08 | Делитель напряжения и темновой выключатель | 30-40 мин | ★★★☆☆ | [exercise_08_voltage_divider.md](exercise_08_voltage_divider) |
 
 **Чему научитесь:**
 - Принцип работы транзистора
@@ -59,8 +59,8 @@ weight: 1
 
 | # | Название | Время | Сложность | Файл |
 |---|----------|-------|-----------|------|
-| 09 | Мигающий светодиод (однотранзисторный) | 40-50 мин | ★★★★☆ | [exercise_09_single_transistor_blinker.md](exercise_09_single_transistor_blinker.md) |
-| 10 | 🏆 КЛАССИЧЕСКИЙ МУЛЬТИВИБРАТОР 🏆 | 60-90 мин | ★★★★★ | [exercise_10_astable_multivibrator.md](exercise_10_astable_multivibrator.md) |
+| 09 | Мигающий светодиод (однотранзисторный) | 40-50 мин | ★★★★☆ | [exercise_09_single_transistor_blinker.md](exercise_09_single_transistor_blinker) |
+| 10 | 🏆 КЛАССИЧЕСКИЙ МУЛЬТИВИБРАТОР 🏆 | 60-90 мин | ★★★★★ | [exercise_10_astable_multivibrator.md](exercise_10_astable_multivibrator) |
 
 **Чему научитесь:**
 - Положительная обратная связь
